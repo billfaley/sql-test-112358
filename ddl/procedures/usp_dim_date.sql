@@ -6,7 +6,7 @@ SET NOCOUNT ON
 TRUNCATE TABLE DIM_Date
 
 DECLARE @CurrentDate DATE = '2016-01-01'
-DECLARE @EndDate DATE = '2020-12-31'
+DECLARE @EndDate DATE = '2024-12-31' --updated end date
 
 WHILE @CurrentDate < @EndDate
 BEGIN
