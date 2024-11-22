@@ -4,7 +4,7 @@ CREATE TABLE DW_DEMO.dbo.Dim_Date (
    [DateKey] INT NOT NULL PRIMARY KEY,
    [Date] DATE NOT NULL,
    [Day] TINYINT NOT NULL,
-   [DaySuffix] CHAR(2) NOT NULL,
+   [DaySuffix] CHAR(2) NULL,
    [Weekday] TINYINT NOT NULL,
    [WeekDayName] VARCHAR(10) NOT NULL,
    [WeekDayName_Short] CHAR(3) NOT NULL,
